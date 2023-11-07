@@ -1,0 +1,35 @@
+@python
+import sys
+
+@c
+#include <stdbool.h>
+
+@c
+#include <stdio.h>
+
+@c
+bool is_prime(int n) {
+    printf("is_prime() pyörii: n=%d\n", n);
+    if (n < 2) {
+        return false;
+    }
+
+    for (int i = 2; i < n; i++) {
+        if (n % i == 0) {
+            return false;
+        }
+    }
+    return true;
+}
+
+@python
+def get_primes(limit: int) -> list[int]:
+    result = []
+    for n in range(limit):
+        if is_prime(n):
+            result.append(n)
+
+    return result
+
+@python
+print(get_primes(20))
