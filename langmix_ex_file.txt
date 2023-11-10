@@ -9,7 +9,7 @@ import sys
 
 @c
 bool is_prime(int n) {
-    printf("is_prime() pyörii: n=%d\n", n);
+    printf("is_prime() is running: n=%d\n", n);
     if (n < 2) {
         return false;
     }
