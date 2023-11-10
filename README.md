@@ -12,5 +12,5 @@ Langmix is a tool which allows you to run C and Python within the same file. I c
 - **Setup**: In addition to Python3 you'll need a couple of additional dependencies. These can be found from requirements.txt and installed by running:
 `$ python3 -m pip install -r requirements.txt`.
 
-- **Running Examples**: Explore the `./examples` directory for sample files. To run an example, use:
-`$ python3 main.py ${example_file.txt}`
+- **Running Examples**: Explore the `./examples` directory for sample files. To run a file, use:
+`$ python3 main.py ${filename.txt}`
