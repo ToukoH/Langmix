@@ -1,6 +1,6 @@
 import sys
 from collections import deque
-from .lexer import Decorator, CodeBlock, lex
+from .lexer import Decorator, CodeBlock
 from dataclasses import dataclass
 
 

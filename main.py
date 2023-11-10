@@ -2,7 +2,6 @@ from pathlib import Path
 import subprocess
 import sys
 import tempfile
-import time
 
 from utils.parse import parse
 from utils.lexer import lex
