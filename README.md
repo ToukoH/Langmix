@@ -4,8 +4,8 @@ Langmix is a tool which allows you to run C and Python within the same file. I c
 
 ### Syntax
 
-- **Decorators**: Start with an `@` symbol followed by a word (e.g., `@python`), and must be placed at the beginning of a line, ending with a newline.
-- **Code Blocks**: Begin with a non-space character and consist of lines that start with a space. Blocks are separated by blank lines and can optionally end with a `}` on a new line.
+- **Decorators**: Start with an `@` symbol followed by the name of the programming language. Decorators must be placed at the beginning of a line, ending with a newline.
+- **Code Blocks**: Decorators are followed by code blocs. They start with a non-space character and consist of lines that start with a space (tab). Blocks are separated by blank lines and can optionally end with a `}` on a new line.
 
 ### Instructions
 
