@@ -26,6 +26,8 @@ def write_files_to_tempdir(sections):
         subprocess.call(['gcc', '-shared', '-o', 'libtmpfile.so', '-fPIC', 'tmpfile.c'], cwd=tempdir)
         subprocess.call(['python3', 'tmpfile.py'], cwd=tempdir)
 
+#TODO: Convert write_files_to_tempdir function to c-extention
+
 def main(file_path):
     with open(file_path, "r", encoding="utf-8") as file:
         code = file.read()
